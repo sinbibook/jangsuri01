@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1.0",
-    "generatedAt": "2026-09-01T07:09:34.048301051Z",
+    "version": "1.2.0",
+    "generatedAt": "2026-10-09T07:33:36.211935663Z",
     "templateType": "trip_d",
     "propertyId": "2af162c4-10da-41f1-b266-691b71966a19",
     "homepageId": "0bdb6f1e-eb9e-4320-994f-9fd4161326da"
@@ -29,6 +29,9 @@
     "domain": "jangsuri01.kr",
     "realtimeBookingId": "https://map.naver.com/p/entry/place/1485694818",
     "ybsId": "76605",
+    "tripPropertyId": "7748",
+    "partnerType": "distributor_b",
+    "tripProviderName": "트립일레븐",
     "amenities": [
       "흡연구역(지정장소)",
       "주차장"
@@ -451,8 +454,8 @@
       {
         "thumbnail": [
           {
-            "id": "81666efb-256e-4d35-86ec-1dfa5db66a8d",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/QR1IZVgA75Ek.jpg",
+            "id": "a2b99828-c857-46a8-b377-5ddc4400fde3",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/ax3Jk1LNqKls.jpg",
             "sortOrder": 1,
             "description": "",
             "isSelected": true,
@@ -493,17 +496,9 @@
             "blockId": null
           },
           {
-            "id": "a2b99828-c857-46a8-b377-5ddc4400fde3",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/ax3Jk1LNqKls.jpg",
-            "sortOrder": 6,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
             "id": "d6c0251e-b2df-4169-aa8d-1c24a0ab4e7e",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/7eTNHgjs85W2.jpg",
-            "sortOrder": 7,
+            "sortOrder": 6,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -511,7 +506,7 @@
           {
             "id": "c90f01dc-a9d0-4255-9c71-50d32af4fd40",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/HYWUNtlVM1d7.jpg",
-            "sortOrder": 8,
+            "sortOrder": 7,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -519,7 +514,7 @@
           {
             "id": "cbc2e147-d619-4e7d-9601-cd41746ec35d",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/IMac8YJBGKlo.jpg",
-            "sortOrder": 9,
+            "sortOrder": 8,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -527,7 +522,7 @@
           {
             "id": "581c6994-7134-43fe-9726-038fbc5851d4",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/mC21B4bGv0ce.jpg",
-            "sortOrder": 10,
+            "sortOrder": 9,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -535,6 +530,14 @@
           {
             "id": "382a73ab-9187-45de-b6ac-caec71c163e1",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/MnloyY937QRE.jpg",
+            "sortOrder": 10,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "81666efb-256e-4d35-86ec-1dfa5db66a8d",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/QR1IZVgA75Ek.jpg",
             "sortOrder": 11,
             "description": "",
             "isSelected": true,
@@ -2465,6 +2468,35 @@
                 "description": ""
               },
               "enabled": true
+            }
+          ]
+        },
+        "landing": {
+          "sections": [
+            {
+              "enabled": false,
+              "hero": {
+                "images": [ ]
+              },
+              "about": [
+                {
+                  "blockId": "sample-card-1",
+                  "propertyId": "sample-property-1",
+                  "propertyName": "현재 숙소",
+                  "title": "",
+                  "images": [ ],
+                  "order": 1
+                },
+                {
+                  "blockId": "sample-card-2",
+                  "propertyId": "sample-property-2",
+                  "propertyName": "연결 숙소 2",
+                  "domain": "http://localhost:8000/t-template-D",
+                  "title": "",
+                  "images": [ ],
+                  "order": 2
+                }
+              ]
             }
           ]
         }
